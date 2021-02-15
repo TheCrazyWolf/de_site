@@ -1,4 +1,9 @@
-.h1 {
+.header {
 
-    color: bisque;
+    padding: 50px 300px 50px 300px;
+    background: bisque;
+}
+
+.body {
+    margin: 0;
 }
