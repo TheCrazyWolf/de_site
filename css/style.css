@@ -1,8 +1,30 @@
 .header {
     padding: 50px 300px 50px 300px;
-    background: bisque;
+    background: rgb(255, 255, 255);
 }
 
 .body {
     margin: 0;
+}
+
+.menu {
+    float:right;
+    list-style: none;
+    display: flex;
+}
+
+.items-menu {
+margin: 0 20px;
+}
+
+
+.banner {
+    background-color: aqua;
+    padding: 50px 300px 50px 300px;
+    
+}
+
+#flexcontainer {
+    display: flex;
+    flex-direction: column;
 }
