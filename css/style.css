@@ -3,24 +3,12 @@
 }
 
 .header {
-    padding: 20px;
-    width: 60em;
-    margin-left: auto;
-    margin-right: auto;
-    background: rgb(255, 255, 255);
-}
-
-.menu {
-    float:right;
-    list-style: none;
     display: flex;
+    justify-content: center;
+    width: 1200px;
 }
 
-.items-menu {
-margin: 0 20px;
-}
-
-.banner-main {
-    width: 50em;
-    background-color: blue;
+.img-logo {
+    background-image: "/img/logo.png";
+    height: 30px;
 }
