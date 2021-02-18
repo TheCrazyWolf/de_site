@@ -1,14 +1,41 @@
 .body {
     margin: 0;
-}
-
-.header {
-    display: flex;
     justify-content: center;
+    }
+    
+    .header {
+    display: flex;
     width: 1200px;
-}
+    justify-content: space-between;
+    }
+    
+    
+    .header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    
+    .buttons-menu {
+    padding: 0px 10px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end !important;
+    }
 
-.img-logo {
-    background-image: "/img/logo.png";
-    height: 30px;
+    .container-banner {
+        background-image: url(https://euroroaming.ru/wp-content/uploads/2017/02/ucheba-zagranitsej.jpg);
+        background-size: cover;
+        height:550px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+.banner-content {
+    display: flex;
+    width: 1200px;
+    
 }
