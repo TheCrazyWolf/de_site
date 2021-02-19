@@ -66,12 +66,31 @@
     flex-direction: column;
 }
 
-.list-reasons {
-    list-style: none;
-}
-
-.reasons-icons {
-    margin-right: 25px;
+.img-reas {
     width: 45px;
     height: 45px;
+    margin-right: 20px;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: row;
+}
+
+.reas-rows {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fonts {
+    font-family: 'Montserrat', sans-serif;
+    margin: 2px;
+
+}
+
+.resons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
