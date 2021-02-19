@@ -39,8 +39,29 @@
 
 .banner-content {
     display: flex;
+    flex-direction: column;
     width: 1200px;
-    align-items: flex-end;
-
+    align-items: flex-start;
+    justify-content: center;
 }
 
+.ButtonSend {
+    padding: 10px;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-other {
+    background-color: rgb(10, 79, 136);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+}
