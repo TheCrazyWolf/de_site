@@ -3,39 +3,43 @@
     justify-content: center;
     }
     
-    .header {
+.header {
     display: flex;
     width: 1200px;
     justify-content: space-between;
     }
     
     
-    .header-menu {
+.header-menu {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
     }
     
-    .buttons-menu {
+.buttons-menu {
     padding: 0px 10px 0px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     }
 
-    .container-banner {
-        background-image: url(https://euroroaming.ru/wp-content/uploads/2017/02/ucheba-zagranitsej.jpg);
-        background-size: cover;
-        height:550px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
+.container-banner {
+    background-image: url(https://euroroaming.ru/wp-content/uploads/2017/02/ucheba-zagranitsej.jpg);
+    background-size: cover;
+    height:550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     }
 
 .banner-content {
     display: flex;
     width: 1200px;
-    
+    align-items: flex-end;
+
 }
+
