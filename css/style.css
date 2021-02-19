@@ -48,7 +48,7 @@
 .ButtonSend {
     padding: 10px;
     color: white;
-    background-color: teal;
+    background-color:rgb(10, 79, 136);
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -64,4 +64,14 @@
     display: flex;
     width: 1200px;
     flex-direction: column;
+}
+
+.list-reasons {
+    list-style: none;
+}
+
+.reasons-icons {
+    margin-right: 25px;
+    width: 45px;
+    height: 45px;
 }
